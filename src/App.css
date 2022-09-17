@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.infoContainer {
+  position: relative;
+}
+
+.mainContainer {
+  display: flex;
+  padding-left: 50vmin;
+}
+
+.headshot {
+  position: absolute;
+  height: 10vmin;
+  width: 10vmin;
+  border-radius: 2vmin;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.iphone {
+  position: absolute;
+  height: auto;
+  width: 20vw;
+  height: 40vw;
+  border-radius: 1vw;
+  top: 2vw;
+  left: 2vw;
+}
+
+.screen {
+  position: absolute;
+  height: auto;
+  width: 18vw;
+  height: 38vw;
+  border-radius: 1vw;
+  top: 3vw;
+  left: 3vw;
+}
+
+.screenContainer {
+  position: relative;
+  margin: 3vmin;
+  height: 10vmin;
+}
+
+.iphoneContainer {
+  background-color: #ff5d3d;
+  position: absolute;
+  height: auto;
+  width: 20vw;
+  height: 40vw;
+  border-radius: 2vw;
+  top: 1vw;
+  left: 30vw;
+}
+
+.headshotContainer {
+  background-color: #1d1826;
+  position: absolute;
+  border-radius: 2vmin;
+  height: 10vmin;
+  width: 10vmin;
+  left: 3vmin;
+  top: 2vmin;
+}
+
+.textBox {
+  background-color: #1d1826;
+  padding: 1vmin;
+  margin: 1vmin;
+  width: 12vmax;
+  height: 10vw;
+  border-radius: 2vmin;
+  position: inherit;
+  font-family: 'Fira Code', monospace;
+  left: 1vmin;
+  font-size: 0.8vw;
+  text-align: left;
+}
+
+.textBox2 {
+  padding: 1vmin;
+  position: inherit;
+  background-color: #ff5d3d;
+  height: 8vmax;
+  width: 12vmax;
+  border-radius: 2vmin;
+  position: absolute;
+  bottom: 1vmin;
+  right: 2vmin;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.8vw;
+  text-align: left;
+}
+
+.projects {
+  float: left;
+  width: 30vmin;
+  font-family: 'Silkscreen', cursive;
+  position: absolute;
+  height: 40vw;
+  border-radius: 2vw;
+  top: 1vw;
+  left: 55vw;
+}
+
+.name {
+  float: left;
+}
+
+.selection {
+  background-color: grey;
+  padding: 1vmin;
+  border-radius: 1vmin;
+  float:left;
+  margin: 1vmin;
+  margin-left: 0vmin;
+  margin-right: 2vmin;
+}
+
+.selection:hover {
+  background-color: #ff5d3d;
+}
+
+.miniLogo {
+  padding: 1vmin;
+}
+
+.logoBox {
+  position: absolute;
+  border-radius: 2vmin;
+  width: 18vw;
+  top: 30vw;
+}
