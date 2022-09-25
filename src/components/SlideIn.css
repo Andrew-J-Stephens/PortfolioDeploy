@@ -1,0 +1,13 @@
+.slide-in {
+    color: white;
+    margin-top: 0px;
+    opacity: 100;
+    transition-property: margin-top, opacity;
+    transition-duration: 0.5s;
+}
+
+.slideBox {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

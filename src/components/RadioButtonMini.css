@@ -1,0 +1,30 @@
+.btn2 {
+    background-color: #bf442c;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 33.6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    padding-left: 13px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .btn2:hover {
+    background-color: #ff5d3d;
+  }
+
+  .btn2.active{
+    background-color: #541d13;
+    margin-top: 2vmin;
+    border-bottom: 1vmin solid #ff5d3d;
+    border-bottom-left-radius: 0vmin;
+    border-bottom-right-radius: 0vmin;
+  }
+
+  .btn2.inactive{
+    border-bottom: 2vmin solid #ff5d3d;
+  }
+  
