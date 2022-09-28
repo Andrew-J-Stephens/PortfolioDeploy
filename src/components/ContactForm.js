@@ -4,15 +4,12 @@ import { FaArrowUp } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+
     const form = useRef();
-    const [isSent, setIsSent] = useState(false);
-    const [message, setMessage] = useState("");
   
     const sendEmail = (e) => {
       e.preventDefault();
-      setIsSent(true);
-      setMessage(messageRef.current.value);
-      messageRef.current.value="";
+      
   
       emailjs.sendForm('service_6hecz0u', 'template_xg9cyvo', form.current, '59zcAu8RGIipjBdlM')
         .then((result) => {
@@ -20,18 +17,22 @@ const ContactForm = () => {
         }, (error) => {
             console.log(error.text);
         });
+
+        messageRef.current.value="";
+        setIsSent(true);
     };
+
+    
+    const [isSent, setIsSent] = useState(false);
+    const [message, setMessage] = useState("");
+    const [user_name, setuser_name] = useState("TEST");
 
     const messageRef = React.useRef();
 
     return (
       <form ref={form} onSubmit={sendEmail} className="inputContainer">
-        <div>
-          <input type="text" name="user_name" id="name" className="inputBox" placeholder="Name" required />
-        </div>
-        <div>
-          <input type="email" name="user_email" id="email" className="inputBox" placeholder="Email" required />
-        </div>
+        <input type="text" name="from_name" className="inputBox" placeholder="Name" required />
+        <input type="email" name="reply_to" className="inputBox" placeholder="Email" required />
         <div className="promptContainer">
         { !isSent ?<div className="prompt">
             Send me a message here and I'll get back to you as soon as possible
