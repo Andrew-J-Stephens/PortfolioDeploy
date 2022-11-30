@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf0572e9.css",
-    "main.js": "/static/js/main.466a0943.js",
+    "main.css": "/static/css/main.b14ef559.css",
+    "main.js": "/static/js/main.863e83f1.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/TorontoTutor.png": "/static/media/TorontoTutor.af21b85c89693f3dee0e.png",
+    "static/media/Bulldog.png": "/static/media/Bulldog.1adc804deb08e5dd2213.png",
     "static/media/clubly.gif": "/static/media/clubly.cbee9c0029068d0a03d8.gif",
     "static/media/keenr.gif": "/static/media/keenr.5425ccae4c7ca7fc081f.gif",
     "static/media/headshot.JPG": "/static/media/headshot.495e58a29469ed739174.JPG",
@@ -11,12 +13,12 @@
     "static/media/iphone.png": "/static/media/iphone.d7926e7458166a60c838.png",
     "static/media/white.png": "/static/media/white.8a91a06b423235c917dc.png",
     "index.html": "/index.html",
-    "main.cf0572e9.css.map": "/static/css/main.cf0572e9.css.map",
-    "main.466a0943.js.map": "/static/js/main.466a0943.js.map",
+    "main.b14ef559.css.map": "/static/css/main.b14ef559.css.map",
+    "main.863e83f1.js.map": "/static/js/main.863e83f1.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf0572e9.css",
-    "static/js/main.466a0943.js"
+    "static/css/main.b14ef559.css",
+    "static/js/main.863e83f1.js"
   ]
 }
