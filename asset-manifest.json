@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b14ef559.css",
-    "main.js": "/static/js/main.863e83f1.js",
+    "main.css": "/static/css/main.01ba9c0d.css",
+    "main.js": "/static/js/main.62d632ad.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/TorontoTutor.png": "/static/media/TorontoTutor.af21b85c89693f3dee0e.png",
     "static/media/Bulldog.png": "/static/media/Bulldog.1adc804deb08e5dd2213.png",
@@ -13,12 +13,12 @@
     "static/media/iphone.png": "/static/media/iphone.d7926e7458166a60c838.png",
     "static/media/white.png": "/static/media/white.8a91a06b423235c917dc.png",
     "index.html": "/index.html",
-    "main.b14ef559.css.map": "/static/css/main.b14ef559.css.map",
-    "main.863e83f1.js.map": "/static/js/main.863e83f1.js.map",
+    "main.01ba9c0d.css.map": "/static/css/main.01ba9c0d.css.map",
+    "main.62d632ad.js.map": "/static/js/main.62d632ad.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b14ef559.css",
-    "static/js/main.863e83f1.js"
+    "static/css/main.01ba9c0d.css",
+    "static/js/main.62d632ad.js"
   ]
 }
